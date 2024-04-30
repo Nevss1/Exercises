@@ -21,7 +21,7 @@ def waitingtime(sec=0):
 def usrautentication():
     while True:
         user = input()
-        if len(user) == 1 and user in "012":
+        if len(user) == 1 and user in "123":
             user = int(user)
             return user
         else:
