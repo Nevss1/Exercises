@@ -1,6 +1,6 @@
-# Exercises-in-Python
+# Exercises
 
- Some Description!
+ Exercícios práticos em python!
 
  ## Subheader
- eae tio suave?
+ eaeeeee 
