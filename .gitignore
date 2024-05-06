@@ -1,2 +1,3 @@
 # pastas a serem ignoradas pelo rastreamento
-.idea
+/.idea
+/Password authenticator.py
