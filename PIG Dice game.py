@@ -8,8 +8,8 @@ def roll(turn):
     try:
         input(f"player {turn} turn! press any to roll.")
     except KeyboardInterrupt:
-        print(" Player AFK")
-        return 0
+        print("\nPlayer AFK")
+        exit()
     score_sum = 0
     while True:
         score = randint(0, 6)  # pontuação do dado de seis lados
@@ -27,7 +27,8 @@ def roll(turn):
                 else:
                     continue
             except KeyboardInterrupt:
-                print(" Player AFK")
+                print("\nPlayer AFK")
+                exit()
 
 
 '''
@@ -39,6 +40,7 @@ Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pla
     If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 '''
 
+print("Welcome to the PIG dice game!")
 while True:
     if who_turn == 1:
         score_plr1 += roll(who_turn)  # turno do player1
