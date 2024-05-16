@@ -1,3 +1,5 @@
 # pastas a serem ignoradas pelo rastreamento
 /.idea
 /Password authenticator.py
+/zero pra cancelar.py
+/outro.py
