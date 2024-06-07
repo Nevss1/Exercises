@@ -1,6 +1,3 @@
-# Exercises
+# OBI/General Exc. in python
 
- Exercícios práticos em python!
-
- ## Subheader
- eaeeeee 
+ Practical exercises in python!
