@@ -1,3 +1,3 @@
-# OBI/Gemeral Exc. in python
+# OBI/General Exc. in python
 
  Practical exercises in python!
